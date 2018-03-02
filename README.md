@@ -9,7 +9,7 @@ For example: http://www.bbc.co.uk/news/uk-politics-eu-referendum-36306681
 
 3. Edit the 'articles' list in the python scraper code, add the relevant Article title and number as required. For example:
 ```
-articles = {'This is an article':2891312 , 'This is another article', 123123}
+articles = {'This is an article':'2891312' , 'This is another news article', '123123'}
 ```
 
 4. Save, and then run the python script. If no database exists, this will create an Sqlite database, and then populate a table with the comments.
