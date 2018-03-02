@@ -8,14 +8,14 @@ For example: http://www.bbc.co.uk/news/uk-politics-eu-referendum-36306681
 2. Look within the HTML and for the string 'forumId=__CPS__' (without the Single Quotes). After '__CPS__' there will be a number, copy this number. For example '__CPS__43250035', then copy '43250035' 
 
 3. Edit the 'articles' list in the python scraper code, add the relevant Article title and number as required. For example:
-'''
+```
 articles = {'This is an article':2891312 , 'This is another article', 123123}
-'''
+```
 
 4. Save, and then run the python script. If no database exists, this will create an Sqlite database, and then populate a table with the comments.
-'''
+```
 python3 ./scraper.py
-'''
+```
 
 ## Requirements
 The following python libraries are required to be installed:
