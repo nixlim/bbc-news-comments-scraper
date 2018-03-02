@@ -1,5 +1,5 @@
 # bbc-news-comments-scraper
-A simple python script to scrape comments from one or many BBC News articles. This was tested to collect the many thousands of Brexit related discorse posted on the BBC News website.
+A simple python script to scrape comments from one or many BBC News articles. This was tested to collect the Brexit related discourse posted on the BBC News website.
 
 ## How to use
 1. Go to a BBC news article with comments you're interested in, and view the source of the webpage. Alternateively, in Chrome, right-click on the 'View Comments' button and select 'Inspect'.
